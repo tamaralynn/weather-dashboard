@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Weather Dashboard</a>
+            <!--       <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul> -->
+        </div>
+    </nav>
+
+    <div class="container whole-thing">
+        <!-- Page Content goes here -->
+        <div class="row">
+
+            <div class="search-div col s12 m6 l4">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input value="New York, NY" id="location-search" type="text" class="validate">
+                        <label class="active" for="location-search">Location</label>
+                        <a class="waves-effect waves-light btn-small"><i class="material-icons left">search</i>SEARCH</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-div col s12 m6 l8">
+
+                <div class="todays-weather row">
+                    <div class="col l12">
+
+                    </div>
+                </div>
+                <div class="six-day-forecast row">
+                    <div class="col s6 m4 l2 target2"></div>
+                    <div class="col s6 m4 l2 target3"></div>
+                    <div class="col s6 m4 l2 target4"></div>
+                    <div class="col s6 m4 l2 target5"></div>
+                    <div class="col s6 m4 l2 target6"></div>
+                    <div class="col s6 m4 l2 target7"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

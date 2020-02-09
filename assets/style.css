@@ -1,0 +1,26 @@
+body {
+    background-color: #eee;
+}
+
+div.whole-thing {
+    height: 90vh;
+    background-color: gray;
+}
+
+div.search-div {
+    background-color: rgb(214, 214, 214);
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(124, 159, 255);
+    margin-bottom: 5%;
+}
+
+.btn-small {
+    background-color: rgb(124, 159, 255);
+}
+
+.btn-small:hover {
+    background-color: rgb(74, 96, 156);
+}
