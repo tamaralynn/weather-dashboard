@@ -24,39 +24,82 @@
         </div>
     </nav>
 
-    <div class="container whole-thing">
+    <div class="card container whole-thing">
         <!-- Page Content goes here -->
         <div class="row">
 
-            <div class="search-div col s12 m6 l4">
+            <div class="search-div col s12 m5 l3">
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="card-content input-field col l8">
                         <input value="New York, NY" id="location-search" type="text" class="validate">
                         <label class="active" for="location-search">Location</label>
-                        <a class="waves-effect waves-light btn-small"><i class="material-icons left">search</i>SEARCH</a>
+                    </div>
+                    <a class="waves-effect waves-light btn-small l3"><i class="material-icons left">search</i>SEARCH</a>
+                    <div class="citiesList">
 
                     </div>
                 </div>
             </div>
 
-            <div class="weather-div col s12 m6 l8">
+            <div class="weather-div col s12 m7 l9">
 
                 <div class="todays-weather row">
-                    <div class="col l12">
-
+                    <div class="col l12 todays-weather">
+                        <header>
+                            <div class="card-title city">
+                            </div>
+                        </header>
+                        <div class="date"></div>
+                        <img class="icon"></img>
+                        <div class="temp"></div>
+                        <div class="humidity"></div>
+                        <div class="wind-speed"></div>
                     </div>
                 </div>
-                <div class="six-day-forecast row">
-                    <div class="col s6 m4 l2 target2"></div>
-                    <div class="col s6 m4 l2 target3"></div>
-                    <div class="col s6 m4 l2 target4"></div>
-                    <div class="col s6 m4 l2 target5"></div>
-                    <div class="col s6 m4 l2 target6"></div>
-                    <div class="col s6 m4 l2 target7"></div>
+                <div class="five-day-forecast row">
+                    <div class="col s6 m4 l2 target1">
+                        <div class="date1"></div>
+                        <img class="icon1"></img>
+                        <div class="temp1"></div>
+                        <div class="humidity1"></div>
+                        <div class="wind-speed1"></div>
+                    </div>
+                    <div class="col s6 m4 l2 target2">
+                        <div class="date2"></div>
+                        <img class="icon2"></img>
+                        <div class="temp2"></div>
+                        <div class="humidity2"></div>
+                        <div class="wind-speed2"></div>
+                    </div>
+                    <div class="col s6 m4 l2 target3">
+                        <div class="date3"></div>
+                        <img class="icon3"></img>
+                        <div class="temp3"></div>
+                        <div class="humidity3"></div>
+                        <div class="wind-speed3"></div>
+                    </div>
+                    <div class="col s6 m4 l2 target4">
+                        <div class="date4"></div>
+                        <img class="icon4"></img>
+                        <div class="temp4"></div>
+                        <div class="humidity4"></div>
+                        <div class="wind-speed4"></div>
+                    </div>
+                    <div class="col s6 m4 l2 target5">
+                        <div class="date5"></div>
+                        <img class="icon5"></img>
+                        <div class="temp5"></div>
+                        <div class="humidity5"></div>
+                        <div class="wind-speed5"></div>
+                    </div>
                 </div>
+
             </div>
         </div>
-    </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="./assets/script.js"></script>
 </body>
 
 </html>
