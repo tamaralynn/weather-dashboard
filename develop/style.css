@@ -1,0 +1,56 @@
+body {
+    background-color: #eee;
+}
+
+div.whole-thing {
+    background-color: rgb(214, 214, 214);
+    border: 1px solid black;
+    margin: auto;
+}
+
+div.query-div {
+    background-color: rgb(230, 230, 230);
+}
+
+nav {
+    background-color: rgb(124, 159, 255);
+    margin-bottom: 5%;
+}
+
+.btn-small {
+    background-color: rgb(124, 159, 255);
+}
+
+.btn-small:hover {
+    background-color: rgb(74, 96, 156);
+}
+
+span.color {
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(100, 100, 100);
+}
+
+.today-uv-index {
+    border-radius: 3px;
+}
+
+h5,
+h4 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+#color {
+    padding: 3px 2px 3px 0px;
+    border-radius: 3px;
+    margin: 6px 0px;
+}
+
+.divider {
+    margin-bottom: 20px;
+}
+
+.daily-forecast {
+    margin-bottom: 25px;
+}
