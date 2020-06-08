@@ -5,7 +5,7 @@ body {
 div.whole-thing {
     background-color: rgb(214, 214, 214);
     border: 1px solid black;
-    margin: auto;
+    margin: 5% auto;
 }
 
 div.query-div {
@@ -53,4 +53,8 @@ h4 {
 
 .daily-forecast {
     margin-bottom: 25px;
+}
+
+.card .form-input {
+    padding: 5px;
 }
